@@ -14,3 +14,4 @@ def test_bmi_under_weight():
     # Test the BMI classification for Under Weight
     result = bmi.calculate_bmi(height=1.73, weight=50)
     assert result[1] == "Under Weight"
+
